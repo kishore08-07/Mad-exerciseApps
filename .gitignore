@@ -13,3 +13,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Keystore files (security reasons)
+*.keystore
+*.jks
+
+# Log files
+*.log
+
+# Ignore Git settings
+.git/
+
