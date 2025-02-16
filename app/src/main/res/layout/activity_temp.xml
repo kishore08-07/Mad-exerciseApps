@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_marginLeft="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Temperature Converter"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Enter Fahrenheit"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <EditText
+        android:id="@+id/Fahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Enter Fahrenheit"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter Celsius"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <EditText
+        android:id="@+id/Celsius"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="none"
+        android:hint="Enter Celsius"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:backgroundTint="#ff5733"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
