@@ -3,8 +3,20 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:layout_marginVertical="50sp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="129dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="30dp"
+        android:background="#0000FF"
+        android:text="MAD Exercises"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/Ex1Temp"
@@ -22,6 +34,7 @@
         android:id="@+id/Ex2Linear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ex 2.1 Linear"/>
+        android:text="Ex 2.1 Linear" />
+
 
 </LinearLayout>
