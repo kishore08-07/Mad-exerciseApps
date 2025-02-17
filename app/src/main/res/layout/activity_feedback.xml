@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity"
+    android:padding="40dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We hope you enjoyed your meal,kindly drop us a feedback "
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <RatingBar
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stepSize="1"
+        android:rating="5"
+        android:numStars="5"
+        android:progressTint="#d3d4"
+        android:isIndicator="false"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/rateRespond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Awesome. I love it"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+    />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your feedback"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEnd feedback"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        tools:ignore="InvalidId" />
+
+</LinearLayout>

@@ -34,7 +34,19 @@
         android:id="@+id/Ex2Linear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ex 2.1 Linear" />
+        android:text="Ex 2.1.1 Linear" />
+
+    <Button
+        android:id="@+id/Ex2Relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ex 2.1.2 Relative" />
+
+    <Button
+        android:id="@+id/Ex2Feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ex 2.2 Feedback" />
 
 
 </LinearLayout>
