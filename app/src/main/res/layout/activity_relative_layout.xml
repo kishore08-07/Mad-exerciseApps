@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <!-- Header Section -->
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/and"
+        app:srcCompat="@drawable/and"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/icon"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Software Development"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <!-- Banner Image -->
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/and1"/>
+    <!-- Android Section -->
+    <TextView
+        android:id="@+id/android_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banner"
+        android:layout_alignParentStart="true"
+        android:text="Android"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/android_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/android_title"
+        android:layout_toStartOf="@id/ios_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="10dp"
+        android:text="Android is, innovative apps and games for the mobile terminal..."
+        android:textColor="@android:color/black"
+        android:textSize="14sp"/>
+
+    <!-- iOS Section -->
+    <TextView
+        android:id="@+id/ios_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/android_title"
+        android:layout_alignParentEnd="true"
+        android:text="iOS Apps"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/ios_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ios_title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:text="The documents that are displayed on the left side of the navigation..."
+        android:textColor="@android:color/black"
+        android:textSize="14sp"/>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/android_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="REGISTER"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+</RelativeLayout>
