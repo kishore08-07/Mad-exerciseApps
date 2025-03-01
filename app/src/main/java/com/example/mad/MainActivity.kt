@@ -40,5 +40,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.Ex2Feedback).setOnClickListener{
             startActivity(Intent(this,FeedbackActivity::class.java))
         }
+        findViewById<Button>(R.id.Ex2Calci).setOnClickListener{
+            startActivity(Intent(this,CalciActivity::class.java))
+        }
     }
 }

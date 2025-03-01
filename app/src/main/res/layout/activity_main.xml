@@ -48,5 +48,11 @@
         android:layout_height="wrap_content"
         android:text="Ex 2.2 Feedback" />
 
+    <Button
+        android:id="@+id/Ex2Calci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ex 2.3 Calci" />
+
 
 </LinearLayout>
